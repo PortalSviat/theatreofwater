@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="476" height="462" viewBox="626 345 476 462"><defs>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7cbd2" /><stop offset=".48" stop-color="#fbfcfd" /><stop offset="1" stop-color="#a3aab5" /></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#294cdb" /><stop offset=".5" stop-color="#b9c8ff" /><stop offset="1" stop-color="#3e60dc" /></linearGradient>
+<linearGradient id="mist" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" /><stop offset="1" stop-color="#dce1e9" /></linearGradient>
+</defs><rect id="06-merch-rectangle-180" x="0" y="0" width="1728" height="1117" rx="0" fill="#fff" />
+<rect id="06-merch-rectangle-184" x="112" y="345" width="476" height="462" rx="28" fill="#eff1f5" />
+<path id="06-merch-shape-185" d="M 257 425 L 302 405 Q 347 450 392 405 L 442 425 L 489 508 L 434 547 L 413 517 V 733 H 283 V 517 L 262 547 L 207 508 Z" fill="#fff" opacity="1" stroke="#c6ccd6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+<g id="06-merch-fish-186" transform="translate(316 548) rotate(-20) scale(0.25)">
+<path id="06-merch-shape-187" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-188" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-189" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="#294cdb" opacity="1" />
+</g>
+<rect id="06-merch-rectangle-192" x="112" y="959" width="186" height="66" rx="33" fill="#294cdb" />
+<rect id="06-merch-rectangle-194" x="626" y="345" width="476" height="462" rx="28" fill="#e7ebf5" />
+<rect id="06-merch-rectangle-195" x="736" y="392" width="256" height="365" rx="4" fill="#fff" />
+<path id="06-merch-shape-197" d="M 752 521 C 807.0 499.0 840.0 543.0 888.4 526.06 S 939.0 506.48 972 551" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-198" d="M 752 541 C 807.0 519.0 840.0 563.0 888.4 546.06 S 939.0 526.48 972 571" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-199" d="M 752 561 C 807.0 539.0 840.0 583.0 888.4 566.06 S 939.0 546.48 972 591" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-200" d="M 752 581 C 807.0 559.0 840.0 603.0 888.4 586.06 S 939.0 566.48 972 611" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-201" d="M 752 601 C 807.0 579.0 840.0 623.0 888.4 606.06 S 939.0 586.48 972 631" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-202" d="M 752 621 C 807.0 599.0 840.0 643.0 888.4 626.06 S 939.0 606.48 972 651" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-203" d="M 752 641 C 807.0 619.0 840.0 663.0 888.4 646.06 S 939.0 626.48 972 671" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="06-merch-shape-204" d="M 752 661 C 807.0 639.0 840.0 683.0 888.4 666.06 S 939.0 646.48 972 691" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<rect id="06-merch-rectangle-207" x="626" y="959" width="186" height="66" rx="33" fill="#294cdb" />
+<rect id="06-merch-rectangle-209" x="1140" y="345" width="476" height="462" rx="28" fill="#eff1f5" />
+<rect id="06-merch-rectangle-210" x="1232" y="446" width="112" height="100" rx="36" fill="#fff" />
+<g id="06-merch-fish-211" transform="translate(1259 496) rotate(-25) scale(0.25)">
+<path id="06-merch-shape-212" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-213" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-214" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="#294cdb" opacity="1" />
+</g>
+<rect id="06-merch-rectangle-215" x="1362" y="540" width="112" height="100" rx="36" fill="#fff" />
+<g id="06-merch-fish-216" transform="translate(1389 590) rotate(15) scale(0.25)">
+<path id="06-merch-shape-217" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-218" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-219" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="#294cdb" opacity="1" />
+</g>
+<rect id="06-merch-rectangle-220" x="1258" y="629" width="112" height="100" rx="36" fill="#fff" />
+<g id="06-merch-fish-221" transform="translate(1285 679) rotate(-10) scale(0.25)">
+<path id="06-merch-shape-222" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-223" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="#294cdb" opacity="1" />
+<path id="06-merch-shape-224" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="#294cdb" opacity="1" />
+</g>
+<rect id="06-merch-rectangle-227" x="1140" y="959" width="186" height="66" rx="33" fill="#294cdb" />
+<text x="762" y="439" font-family="Arial, sans-serif" font-size="20" fill="#294cdb">МАГИЯ ВОДЫ</text></svg>

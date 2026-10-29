@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Театр водяных фигур — Theatre of Water</title>
+    <style>
+        @font-face {
+            font-family: 'Great Vibes';
+            src: url('assets/GreatVibes-Regular.ttf');
+        }
+
+        @font-face {
+            font-family: 'Marck Script';
+            src: url('assets/MarckScript-Regular.ttf');
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: white;
+            color: #182344;
+            font-family: 'Great Vibes', cursive;
+            font-size: 28px;
+        }
+
+        h1, h2, h3 {
+            font-weight: normal;
+        }
+
+        h2 {
+            font-family: 'Marck Script', cursive;
+            font-size: 64px;
+            line-height: 1.2;
+        }
+
+        h3 {
+            font-size: 40px;
+            line-height: 1.2;
+        }
+
+        p {
+            line-height: 1.35;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #294cdb;
+        }
+
+        img {
+            display: block;
+        }
+
+        /*кнопки*/
+        .button {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 230px;
+            height: 64px;
+            border-radius: 40px;
+            background-color: #294cdb;
+            color: white;
+            font-size: 27px;
+        }
+
+        .button:hover {
+            background-color: #1e39b8;
+            color: white;
+        }
+
+        .button-white {
+            background-color: white;
+            color: #294cdb;
+        }
+
+        .muted {
+            color: #858993;
+        }
+
+        /* Шапка */
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 24px;
+            padding: 20px 7%;
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .logo img {
+            width: 80px;
+            height: 47px;
+        }
+
+        .logo p {
+            font-size: 12px;
+            line-height: 1.5;
+        }
+
+        .menu {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 48px;
+        }
+
+        .navigation .button {
+            width: 200px;
+            height: 52px;
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+        }
+
+        /* Первый экран */
+        .hero {
+            position: relative;
+        }
+
+        .hero-background {
+            width: 100%;
+        }
+
+        .hero-content {
+            position: absolute;
+            top: 34%;
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero h1 {
+            font-size: 82px;
+            line-height: 1.15;
+            text-align: center;
+        }
+
+        .hero p {
+            color: #858993;
+            font-size: 42px;
+        }
+
+        .hero .button {
+            margin-top: 34px;
+        }
+
+        /* О театре */
+        .about {
+            position: relative;
+            overflow: hidden;
+            padding: 135px 7% 330px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 46px;
+        }
+
+        .about h3 {
+            margin: 75px 0 25px;
+            color: #294cdb;
+            font-size: 48px;
+        }
+
+        .about-description {
+            margin: auto;
+            width: 74%;
+            color: #858993;
+            font-size: 31px;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 28px;
+            margin-top: 85px;
+        }
+
+        .feature {
+            width: 30%;
+        }
+
+        .feature h3 {
+            margin: 0 0 12px;
+            font-family: 'Marck Script', cursive;
+            font-size: 30px;
+        }
+
+        .feature p {
+            color: #858993;
+            font-size: 25px;
+        }
+
+        .bottom-waves {
+            position: absolute;
+            width: 100%;
+            left: 0;
+            bottom: 0;
+        }
+
+        /*  История создания */
+        .history {
+            position: relative;
+            overflow: hidden;
+            background-color: #eff1f5;
+            padding: 150px 7% 210px;
+        }
+
+        .history-row {
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .history-copy {
+            width: 52%;
+        }
+
+        .history-copy h2 {
+            margin-bottom: 55px;
+        }
+
+        .history-copy p {
+            font-size: 34px;
+            line-height: 1.3;
+        }
+
+        .history-copy .muted {
+            margin-top: 35px;
+        }
+
+        .author-signature {
+            margin-top: 65px;
+        }
+
+        .author-signature .muted {
+            font-size: 25px;
+        }
+
+        .author-signature p {
+            margin-top: 15px;
+            font-size: 40px;
+        }
+
+        .founder {
+            width: 34%;
+            padding-top: 65px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+
+        .founder img {
+            width: 100%;
+            border-radius: 100px;
+        }
+
+        .founder p {
+            margin-top: 20px;
+            font-size: 26px;
+        }
+
+        .founder .muted {
+            margin-top: 12px;
+            font-size: 18px;
+        }
+
+        /* Афиша */
+        .program {
+            padding: 120px 7% 140px;
+        }
+
+        .program h2 {
+            margin-bottom: 45px;
+        }
+
+        .program-row {
+            display: flex;
+            gap: 32px;
+        }
+
+        .main-show {
+            width: 61%;
+            overflow: hidden;
+            border-radius: 32px;
+            background-color: #eff1f5;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .eyebrow {
+            font-family: 'Marck Script', cursive;
+            font-size: 25px;
+            line-height: 1.3;
+        }
+
+        .main-show > .eyebrow {
+            padding: 35px 35px 0;
+        }
+
+        .show-image {
+            width: 100%;
+            margin-top: 30px;
+        }
+
+        .show-caption {
+            position: relative;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            background-color: white;
+            border-radius: 25px;
+            padding: 25px;
+            margin: 0 30px 30px;
+        }
+
+        .show-caption h3 {
+            font-size: 34px;
+        }
+
+        .show-caption p {
+            font-size: 23px;
+            color: #858993;
+        }
+
+        .show-caption .button {
+            width: 195px;
+            height: 54px;
+            font-size: 24px;
+        }
+
+        .program-column {
+            width: 37%;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .program-card {
+            padding: 35px;
+            border-radius: 32px;
+            background-color: #eff1f5;
+        }
+
+        .program-card p {
+            margin: 18px 0 32px;
+            font-size: 30px;
+        }
+
+        .special {
+            color: white;
+            background-color: #294cdb;
+        }
+
+        /*  Жанры: */
+        .genres {
+            background-color: #eff1f5;
+            padding: 120px 7% 145px;
+        }
+
+        .genres h2 {
+            margin-bottom: 65px;
+        }
+
+        .genre-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 32px 3%;
+        }
+
+        .genre-card {
+            width: 48.5%;
+            padding: 35px;
+            background-color: white;
+            border-radius: 32px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .genre-copy {
+            width: 65%;
+        }
+
+        .genre-number {
+            color: #a2a7b1;
+            font-size: 15px;
+            margin-bottom: 23px;
+        }
+
+        .genre-card h3 {
+            margin-bottom: 12px;
+        }
+
+        .genre-card p {
+            color: #858993;
+            font-size: 26px;
+        }
+
+        .genre-card a {
+            display: block;
+            margin-top: 20px;
+            color: #294cdb;
+            font-size: 22px;
+        }
+
+        .genre-card img {
+            width: 34%;
+        }
+
+        /* Мерч */
+        .merch {
+            padding: 130px 7% 140px;
+        }
+
+        .merch > p {
+            margin-top: 18px;
+            color: #858993;
+            font-size: 30px;
+        }
+
+        .merch-row {
+            display: flex;
+            gap: 3%;
+            margin-top: 90px;
+        }
+
+        .product {
+            width: 31.33%;
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 28px;
+        }
+
+        .product h3 {
+            margin-top: 28px;
+        }
+
+        .product p {
+            margin-top: 10px;
+            color: #858993;
+            font-size: 26px;
+        }
+
+        .product .button {
+            width: 185px;
+            margin-top: 25px;
+        }
+
+        /* Подвал */
+        .footer {
+            background-color: #182344;
+            padding: 90px 7% 55px;
+            color: white;
+            font-family: Arial, sans-serif;
+            font-size: 17px;
+        }
+
+        .footer-row {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 35px;
+        }
+
+        .footer-brand {
+            width: 34%;
+        }
+
+        .footer-brand > p {
+            color: #bdc4d3;
+            margin-top: 40px;
+            font-size: 20px;
+        }
+
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 16px;
+        }
+
+        .footer-column h3 {
+            margin-bottom: 15px;
+            font-family: Arial, sans-serif;
+            font-size: 20px;
+        }
+
+        .footer-column p, .footer-column a {
+            color: #bdc4d3;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 85px;
+            padding-top: 35px;
+            color: #bdc4d3;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Шапка -->
+    <nav class="navigation" id="top">
+        <a class="logo" href="#top">
+            <img src="assets/fish.svg">
+            <p>ТЕАТР<br>ВОДЯНЫХ ФИГУР</p>
+        </a>
+        <div class="menu">
+            <a href="#about">О нас</a>
+            <a href="#program">Афиша</a>
+            <a href="#genres">Жанры</a>
+            <a href="#merch">Мерч</a>
+        </div>
+        <a class="button" href="#program">Купить билет</a>
+    </nav>
+
+
+    <!-- Экран 1 -->
+    <div class="hero">
+        <img class="hero-background" src="assets/hero.svg">
+        <div class="hero-content">
+            <h1>Театр водяных фигур</h1>
+            <p>Магия в каждой сцене</p>
+            <a class="button" href="#program">Купить билет</a>
+        </div>
+    </div>
+
+    <!-- О театре -->
+    <div class="about" id="about">
+        <h2>Что такое Театр водяных фигур?</h2>
+        <h3>Мы — не просто театр.</h3>
+        <p class="about-description">
+            Каждое выступление — история, рассказанная водой.<br>
+            Она становится персонажем, меняет форму и настроение,<br>
+            отзывается на движение, музыку и свет.<br>
+            Здесь встречаются искусство и стихия.
+        </p>
+        <div class="features">
+            <div class="feature">
+                <h3>Форма</h3>
+                <p>Вода становится персонажем</p>
+            </div>
+            <div class="feature">
+                <h3>Движение</h3>
+                <p>Каждая сцена живёт</p>
+            </div>
+            <div class="feature">
+                <h3>Свет</h3>
+                <p>Пространство преображается</p>
+            </div>
+        </div>
+        <img class="bottom-waves" src="assets/about-waves.svg">
+    </div>
+
+    <!-- История -->
+    <div class="history" id="history">
+        <div class="history-row">
+            <div class="history-copy">
+                <h2>История создания</h2>
+                <p>
+                    Идея началась с простого наблюдения:<br>
+                    вода может принимать любую форму.<br>
+                    Она движется, отражает свет и каждый<br>
+                    раз выглядит по-новому.
+                </p>
+                <p class="muted">
+                    Так появился театр, где главным актёром<br>
+                    стала сама стихия. Движение воды<br>
+                    превращается в сцену, а её пластика —<br>
+                    в язык, понятный без слов.
+                </p>
+                <div class="author-signature">
+                    <p class="muted">Создатель проекта</p>
+                    <p>Святослав Филиппов</p>
+                </div>
+            </div>
+            <div class="founder" id="creator">
+                <img src="assets/IMG_0253.WEBP">
+                <p>Святослав Филиппов</p>
+                <p class="muted">Основатель театра</p>
+            </div>
+        </div>
+        <img class="bottom-waves" src="assets/history-waves.svg">
+    </div>
+
+    <!-- Афиша -->
+    <div class="program" id="program">
+        <h2>Афиша</h2>
+        <div class="program-row">
+            <div class="main-show">
+                <p class="eyebrow">ГЛАВНОЕ ПРЕДСТАВЛЕНИЕ</p>
+                <img class="show-image" src="assets/program-waves.svg">
+                <div class="show-caption">
+                    <div>
+                        <h3>Вода. Форма. Движение.</h3>
+                        <p>Главная постановка театра</p>
+                    </div>
+                    <a class="button" href="#contacts">Купить билет</a>
+                </div>
+            </div>
+            <div class="program-column">
+                <div class="program-card special">
+                    <h3 class="eyebrow">ТОЛЬКО ДО КОНЦА МЕСЯЦА</h3>
+                    <p>Особенная встреча<br>с водной стихией</p>
+                    <a class="button button-white" href="#about">Подробнее</a>
+                </div>
+                <div class="program-card">
+                    <h3 class="eyebrow">ВСЕ ПРЕДСТАВЛЕНИЯ</h3>
+                    <p class="muted">Истории для любого возраста<br>и настроения.</p>
+                    <a class="button" href="#genres">Смотреть афишу</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Жанры -->
+    <div class="genres" id="genres">
+        <h2>Выступления на любой вкус</h2>
+        <div class="genre-list">
+            <div class="genre-card">
+                <div class="genre-copy">
+                    <div class="genre-number">01</div>
+                    <h3>Комедии</h3>
+                    <p>Лёгкость, игра и неожиданные<br>превращения</p>
+                    <a href="#program">Смотреть представления →</a>
+                </div>
+                <img src="assets/fish.svg">
+            </div>
+            <div class="genre-card">
+                <div class="genre-copy">
+                    <div class="genre-number">02</div>
+                    <h3>Романтика</h3>
+                    <p>Нежные истории о чувствах<br>и близости</p>
+                    <a href="#program">Смотреть представления →</a>
+                </div>
+                <img src="assets/small-waves.svg">
+            </div>
+            <div class="genre-card">
+                <div class="genre-copy">
+                    <div class="genre-number">03</div>
+                    <h3>Классика</h3>
+                    <p>Знакомые сюжеты<br>в языке воды</p>
+                    <a href="#program">Смотреть представления →</a>
+                </div>
+                <img src="assets/fish.svg">
+            </div>
+            <div class="genre-card">
+                <div class="genre-copy">
+                    <div class="genre-number">04</div>
+                    <h3>Для детей</h3>
+                    <p>Добрые истории<br>и первые открытия</p>
+                    <a href="#program">Смотреть представления →</a>
+                </div>
+                <img src="assets/small-waves.svg">
+            </div>
+        </div>
+    </div>
+
+    <!-- Мерч -->
+    <div class="merch" id="merch">
+        <h2>Частичка театра с собой</h2>
+        <p>Купите в театре или закажите на сайте</p>
+        <div class="merch-row">
+            <div class="product">
+                <img src="assets/tshirt.svg">
+                <h3>Футболка</h3>
+                <p>Коллекция театра</p>
+                <a class="button">Выбрать</a>
+            </div>
+            <div class="product">
+                <img src="assets/poster.svg">
+                <h3>Постер</h3>
+                <p>Коллекция театра</p>
+                <a class="button">Выбрать</a>
+            </div>
+            <div class="product">
+                <img src="assets/badges.svg">
+                <h3>Значки</h3>
+                <p>Коллекция театра</p>
+                <a class="button">Выбрать</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Подвал -->
+    <div class="footer" id="contacts">
+        <div class="footer-row">
+            <div class="footer-brand">
+                <a class="logo" href="#top">
+                    <img src="assets/fish-white.svg">
+                    <p>ТЕАТР<br>ВОДЯНЫХ ФИГУР</p>
+                </a>
+                <p>Магия в каждой сцене</p>
+            </div>
+            <div class="footer-column">
+                <h3>Навигация</h3>
+                <a href="#about">О театре</a>
+                <a href="#program">Афиша</a>
+                <a href="#merch">Мерч</a>
+            </div>
+            <div class="footer-column">
+                <h3>Связаться</h3>
+                <a>Контакты автора</a>
+                <a>Другие работы</a>
+            </div>
+            <div class="footer-column">
+                <h3>О проекте</h3>
+                <a href="#creator">Святослав Филиппов</a>
+                <p>РИЦП262 · 2026 · модуль 1</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© Театр водяных фигур, 2026</p>
+            <p>ИСКУССТВО В ДВИЖЕНИИ</p>
+        </div>
+    </div>
+</body>
+
+</html>

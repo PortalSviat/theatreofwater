@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="317" viewBox="0 800 1728 317"><defs>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7cbd2" /><stop offset=".48" stop-color="#fbfcfd" /><stop offset="1" stop-color="#a3aab5" /></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#294cdb" /><stop offset=".5" stop-color="#b9c8ff" /><stop offset="1" stop-color="#3e60dc" /></linearGradient>
+<linearGradient id="mist" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" /><stop offset="1" stop-color="#dce1e9" /></linearGradient>
+</defs><path id="02-about-shape-65" d="M -80 905 C 220 630 390 1040 705 880 S 1090 670 1800 875 L 1800 1117 H -80 Z" fill="url(#mist)" opacity="1" />
+<path id="02-about-shape-66" d="M -50 872 C 400.0 722 670.0 1022 1066.0 906.5 S 1480.0 773.0 1750 902" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-67" d="M -50 894 C 400.0 744 670.0 1044 1066.0 928.5 S 1480.0 795.0 1750 924" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-68" d="M -50 916 C 400.0 766 670.0 1066 1066.0 950.5 S 1480.0 817.0 1750 946" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-69" d="M -50 938 C 400.0 788 670.0 1088 1066.0 972.5 S 1480.0 839.0 1750 968" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-70" d="M -50 960 C 400.0 810 670.0 1110 1066.0 994.5 S 1480.0 861.0 1750 990" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-71" d="M -50 982 C 400.0 832 670.0 1132 1066.0 1016.5 S 1480.0 883.0 1750 1012" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-72" d="M -50 1004 C 400.0 854 670.0 1154 1066.0 1038.5 S 1480.0 905.0 1750 1034" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-73" d="M -50 1026 C 400.0 876 670.0 1176 1066.0 1060.5 S 1480.0 927.0 1750 1056" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="02-about-shape-74" d="M -50 1048 C 400.0 898 670.0 1198 1066.0 1082.5 S 1480.0 949.0 1750 1078" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+</svg>

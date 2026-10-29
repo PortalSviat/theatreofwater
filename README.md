@@ -4,7 +4,7 @@
 
 ## Ссылка на сайт
 
-[https://PortalSviat.github.io/theatreofwater/]
+[https://PortalSviat.github.io/theatreofwater/site]
 
 ## Скриншот
 

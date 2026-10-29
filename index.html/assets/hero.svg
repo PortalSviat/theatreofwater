@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="1117" viewBox="0 0 1728 1117"><defs>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7cbd2" /><stop offset=".48" stop-color="#fbfcfd" /><stop offset="1" stop-color="#a3aab5" /></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#294cdb" /><stop offset=".5" stop-color="#b9c8ff" /><stop offset="1" stop-color="#3e60dc" /></linearGradient>
+<linearGradient id="mist" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" /><stop offset="1" stop-color="#dce1e9" /></linearGradient>
+</defs><rect width="1728" height="1117" fill="url(#mist)" /><path id="01-hero-shape-16" d="M -80 950 C 350 640 540 990 930 740 S 1360 580 1820 745 L 1820 1117 H -80 Z" fill="url(#silver)" opacity="1" />
+<path id="01-hero-shape-17" d="M -100 785 C 392.5 635 688.0 935 1121.4 819.5 S 1574.5 686.0 1870 815" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-18" d="M -100 810 C 392.5 660 688.0 960 1121.4 844.5 S 1574.5 711.0 1870 840" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-19" d="M -100 835 C 392.5 685 688.0 985 1121.4 869.5 S 1574.5 736.0 1870 865" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-20" d="M -100 860 C 392.5 710 688.0 1010 1121.4 894.5 S 1574.5 761.0 1870 890" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-21" d="M -100 885 C 392.5 735 688.0 1035 1121.4 919.5 S 1574.5 786.0 1870 915" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-22" d="M -100 910 C 392.5 760 688.0 1060 1121.4 944.5 S 1574.5 811.0 1870 940" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-23" d="M -100 935 C 392.5 785 688.0 1085 1121.4 969.5 S 1574.5 836.0 1870 965" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="01-hero-shape-24" d="M -100 960 C 392.5 810 688.0 1110 1121.4 994.5 S 1574.5 861.0 1870 990" fill="none" opacity="0.5" stroke="#294cdb" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<g id="01-hero-fish-25" transform="translate(114 235) rotate(-28) scale(0.5)">
+<path id="01-hero-shape-26" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-27" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-28" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+<g id="01-hero-fish-29" transform="translate(300 140) rotate(-15) scale(0.31)">
+<path id="01-hero-shape-30" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-31" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-32" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+<g id="01-hero-fish-33" transform="translate(1300 180) rotate(15) scale(0.4)">
+<path id="01-hero-shape-34" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-35" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-36" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+<g id="01-hero-fish-37" transform="translate(1490 365) rotate(40) scale(0.62)">
+<path id="01-hero-shape-38" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-39" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-40" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+<g id="01-hero-fish-41" transform="translate(1290 790) rotate(-35) scale(0.37)">
+<path id="01-hero-shape-42" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-43" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-44" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+<g id="01-hero-fish-45" transform="translate(175 865) rotate(-25) scale(0.5)">
+<path id="01-hero-shape-46" d="M 0 0 C 60 -54 190 -38 226 0 C 190 38 60 54 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-47" d="M 0 0 C -58 -60 -85 -20 -65 -11 C -40 -2 -15 -1 0 0 Z" fill="url(#water)" opacity="1" />
+<path id="01-hero-shape-48" d="M 0 0 C -58 60 -85 20 -65 11 C -40 2 -15 1 0 0 Z" fill="url(#water)" opacity="1" />
+</g>
+</svg>

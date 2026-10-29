@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1728" height="157" viewBox="0 960 1728 157"><defs>
+<linearGradient id="silver" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#c7cbd2" /><stop offset=".48" stop-color="#fbfcfd" /><stop offset="1" stop-color="#a3aab5" /></linearGradient>
+<linearGradient id="water" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#294cdb" /><stop offset=".5" stop-color="#b9c8ff" /><stop offset="1" stop-color="#3e60dc" /></linearGradient>
+<linearGradient id="mist" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffffff" /><stop offset="1" stop-color="#dce1e9" /></linearGradient>
+</defs><path id="03-history-shape-95" d="M 1160 660 C 1190 500 1440 480 1480 660 C 1540 820 1100 850 1160 660 Z" fill="#c2c8d2" opacity="1" />
+<path id="03-history-shape-96" d="M 1250 480 C 1250 345 1400 345 1400 480 C 1400 590 1250 590 1250 480 Z" fill="#dce1e9" opacity="1" />
+<path id="03-history-shape-99" d="M -50 1020 C 407.5 870 682.0 1170 1084.6 1054.5 S 1505.5 921.0 1780 1050" fill="none" opacity="0.5" stroke="#929aaa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="03-history-shape-100" d="M -50 1041 C 407.5 891 682.0 1191 1084.6 1075.5 S 1505.5 942.0 1780 1071" fill="none" opacity="0.5" stroke="#929aaa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="03-history-shape-101" d="M -50 1062 C 407.5 912 682.0 1212 1084.6 1096.5 S 1505.5 963.0 1780 1092" fill="none" opacity="0.5" stroke="#929aaa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="03-history-shape-102" d="M -50 1083 C 407.5 933 682.0 1233 1084.6 1117.5 S 1505.5 984.0 1780 1113" fill="none" opacity="0.5" stroke="#929aaa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" />
+<path id="03-history-shape-103" d="M -50 1104 C 407.5 954 682.0 1254 1084.6 1138.5 S 1505.5 1005.0 1780 1134" fill="none" opacity="0.5" stroke="#929aaa" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round" /></svg>
